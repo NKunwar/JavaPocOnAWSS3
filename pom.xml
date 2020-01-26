@@ -2,12 +2,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>MyOwnAWSPOCOnS3</groupId>
-	<artifactId>MyOwnAWSPOCOnS3</artifactId>
+	<groupId>JavaPocOnAWSS3</groupId>
+	<artifactId>JavaPocOnAWSS3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>MyOwnAWSPOCOnS3</name>
-	<description>MyOwnAWSPOCOnS3</description>
+	<name>JavaPocOnAWSS3</name>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
@@ -38,4 +37,5 @@
 	</dependencies>
 
 
+	<description>JavaPocOnAWSS3</description>
 </project>
