@@ -1,6 +1,8 @@
 package s3.test;
 
-import s3.client.bucketoperations.ListS3BucketClass;
+import com.amazonaws.services.s3.AmazonS3;
+
+import s3.connect.AWSConnection;
 
 /* A simple Class to test all the implemented classes & methods in the package s3.client.bucketoperations */
 
@@ -10,8 +12,7 @@ public class TestAllImplementedFunctions {
 		
 //		AmazonS3 s3BucketClientObj = AWSConnection.connection(); // This object has the connection details for connecting to the AWS account.
 		
-		ListS3BucketClass lsc = new ListS3BucketClass();
-		System.out.println(lsc.listAllS3Buckets());
+		
 
 	}
 
